@@ -1,0 +1,10 @@
+Bottle 0.10 released!
+#####################
+
+:date: 2011-11-26
+:author: Marcel Hellkamp
+
+There is a lot of new stuff this time: A CLI interface, new routing syntax and lots of convenient helpers for request/response objects and templates. The change-log will tell you more.
+
+* Changelog: http://bottlepy.org/docs/0.10/changelog.html#release-0-10
+* PyPi link: http://pypi.python.org/pypi/bottle/0.10.1

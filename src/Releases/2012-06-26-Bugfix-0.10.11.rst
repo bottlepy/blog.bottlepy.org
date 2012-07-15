@@ -1,0 +1,7 @@
+Bugfix Release 0.10.11
+#############################
+
+:date: 2012-06-26
+:author: Marcel Hellkamp
+
+The Python 3.x unicode problem was more complex than I thought. I had to re-implement urllib.parse_qsl to work around an encoding problem in 3.1 and change the way bottle handles query-strings in subtle ways. Again, please read this before upgrading: http://bottlepy.org/docs/dev/tutorial.html#unicode-issues

@@ -1,0 +1,12 @@
+Bugfix Release 0.9.8 and 0.10.5
+###############################
+
+:date: 2011-12-22
+:author: Marcel Hellkamp
+
+I just released 0.10.5 and 0.9.8. Both are security bugfix releases and recommended for everyone. Here is a brief summary of the changes:
+
+* Critical errors (errors within the framework code) resulted in an error page that was not protected against XSS attacks (because the template engine is not used for this kind of errors).
+* Exceptions with unicode messages that contained non-ascii characters broke the default error handler and caused a critical error.
+
+And before you ask: 0.10.4 -> 0.10.5 fixed a NameError in the back-ported code for the first bug. Sorry for that, I was in a hurry.

@@ -1,0 +1,14 @@
+Native Python 2.x-3.x support
+#############################
+
+:date: 2011-11-25
+:author: Marcel Hellkamp
+
+A few days ago, Ralf showed us `his version of Bottle 0.9 <http://thread.gmane.org/gmane.comp.python.bottle.general/1038>`_ that supports python 2.x and 3.x from a single source. No need to run 2to3 anymore, it runs natively with both major versions of Python.
+
+I want that!
+
+So I created a `new branch <https://github.com/defnull/bottle/commits/no2to3>`_ and ported most of Ralfs changes to 0.11. All tests pass with 2.x and there are no syntax errors with 3.x. But to be really sure, all tests need to be ported to 3.x, too. This is a lot of work and I definitely need some help here.
+
+Want to contribute? Join the mailing-list and/or fork bottle on github. Pull requests for ported tests are very likely to be accepted. Just make sure that they do what they are supposed to do. And if you dare to explore the inner workings of the bottle framework itself and find some errors or nasty edge cases, be that guy and fix it :) Or tell us. Any help is appreciated.
+

@@ -1,0 +1,21 @@
+Bugfix Release 0.10.7
+#############################
+
+:date: 2011-12-28
+:author: Marcel Hellkamp
+
+I just released 0.10.7 (security release). It fixes a possible DoS vulnerability that is caused by hash collisions in CPython dicts.
+
+This bug is not specific to bottle. I you are using other frameworks, check for updates there too.
+
+Details: https://cryptanalysis.eu/blog/2011/12/28/effective-dos-attacks-against-web-application-plattforms-hashdos/
+
+"If the language does not provide a randomized hash function or the application server does not recognize attacks using multi-collisions, an attacker can degenerate the hash table by sending lots of colliding keys. The algorithmic complexity of inserting n elements into the table then goes to O(n**2), making it possible to exhaust hours of CPU time using a single HTTP request."
+
+This workaround limits the number of GET, POST and cookie parameters to a reasonable number of 100 key/value pairs per request, reducing the effectiveness of attacks. Normal web applications should not need to process more than 100 parameters per request, but this limit can be changed by setting Request.MAX_PARAMS to a different value.
+
+Some more links:
+* http://events.ccc.de/congress/2011/Fahrplan/events/4680.en.html
+* http://www.nruns.com/_downloads/advisory28122011.pdf
+* https://github.com/defnull/bottle/commit/6946695b69f5493fb063c351400ff759323a31aa
+

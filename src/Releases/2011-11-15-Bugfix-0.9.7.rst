@@ -1,0 +1,8 @@
+Bugfix release 0.9.7
+####################
+
+:date: 2011-11-15
+:author: Marcel Hellkamp
+
+
+Bottle 0.9.7 (bugfix release) is available. The bug: Loading a template encoded with a codec other than the system default in a Python 3.x environment raised an unicode error under certain circumstances. So, this release is optional. Ignore it if you want :)

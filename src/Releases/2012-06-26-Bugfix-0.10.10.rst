@@ -1,0 +1,11 @@
+Bugfix Release 0.10.10
+#############################
+
+:date: 2012-06-26
+:author: Marcel Hellkamp
+
+Python 3.2+ cgi.FieldStorage() defaults to utf8 when decoding form values. That confused bottle.FormsDict() because WSGI strings "must contain only code points representable in ISO-8859-1 encoding". Now bottle forces cgi.FieldStorage() to use ISO-8859-1 instead and re-encodes form-values on-demand with the user-specified input encoding a intended.
+
+If you are getting encoding errors after this fix, note that the form-dictionaries contain unaltered strings as sent by the client. Only the .getunicode() method and the attribute access methods honor a user-defined input encoding.
+
+EDIT: Here is how it works now: http://bottlepy.org/docs/dev/tutorial.html#unicode-issues
