@@ -16,7 +16,7 @@ DEFAULT_PAGINATION = 10
 DEFAULT_DATE = (2012, 03, 02, 14, 01, 01)
 
 GITHUB_URL = 'http://github.com/defnull/bottle'
-#DISQUS_SITENAME = "bottlepy-blog"
+DISQUS_SITENAME = "bottlepy"
 #TWITTER_USERNAME = "bottlepy"
 
 #MENUITEMS = (('Docs','http://bottlepy.org/'),)
