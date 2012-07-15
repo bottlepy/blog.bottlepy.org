@@ -17,5 +17,5 @@ Highlights:
 * Lots of documentation
 * (the old syntax still works)
 
-You can read about it `in the docs <http://bottlepy.org/docs/dev/routing.html>` and test it in the "routing" branch. I am very exited about this feature and think it is important enough to trigger a new release. Please give it a try and test it with your applications. Any feedback may help to get this stable enough for a release.
+You can read about it `in the docs <http://bottlepy.org/docs/dev/routing.html>`_ and test it in the "routing" branch. I am very exited about this feature and think it is important enough to trigger a new release. Please give it a try and test it with your applications. Any feedback may help to get this stable enough for a release.
 

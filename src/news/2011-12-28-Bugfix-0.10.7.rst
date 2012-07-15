@@ -15,6 +15,7 @@ Details: https://cryptanalysis.eu/blog/2011/12/28/effective-dos-attacks-against-
 This workaround limits the number of GET, POST and cookie parameters to a reasonable number of 100 key/value pairs per request, reducing the effectiveness of attacks. Normal web applications should not need to process more than 100 parameters per request, but this limit can be changed by setting Request.MAX_PARAMS to a different value.
 
 Some more links:
+
 * http://events.ccc.de/congress/2011/Fahrplan/events/4680.en.html
 * http://www.nruns.com/_downloads/advisory28122011.pdf
 * https://github.com/defnull/bottle/commit/6946695b69f5493fb063c351400ff759323a31aa
