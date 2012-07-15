@@ -19,7 +19,7 @@ GITHUB_URL = 'http://github.com/defnull/bottle'
 DISQUS_SITENAME = "bottlepy"
 #TWITTER_USERNAME = "bottlepy"
 
-#MENUITEMS = (('Docs','http://bottlepy.org/'),)
+MENUITEMS = (('Home','/'),)
 
 LINKS = (('Docs','http://bottlepy.org/'),)
 
