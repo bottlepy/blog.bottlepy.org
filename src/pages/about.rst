@@ -2,29 +2,46 @@ About
 #####
 
 :date: 2010-10-03 10:20
-:tags: defnull
-:category: meta
 :author: Marcel Hellkamp
 
-.. image:: static/myface_small.png
-   :alt: Photo of Marcel Hellkamp
-   :class: floatright
+Want to learn more about the `Bottle Web Framework <http://bottlepy.org/>`_?  This blog covers new ideas, technical details and other Bottle and web development related stuff. Never miss a release again!
 
-Hi, I'm *Marcel Hellkamp* (aka *defnull*), author of Bottle and the guy behind this website. I'm 27 years old and studying computer science at the Georg-August-University in GÃ¶ttingen, Germany. Python is my favorite language, but I also code in ruby and JavaScript a lot. Watch me on `twitter <http://twitter.com/bottlepy>`_ or visit my profile at `GitHub <http://github.com/defnull>`_ to get in contact. A `mailinglist <http://groups.google.de/group/bottlepy>`_ is open for Bottle related questions, too.
 
 About Bottle
 ------------
 
 .. image:: static/bottle_small.png
    :alt: Bottle Logo
-   :class: floatright
+   :class: right 
+   
+`Bottle <http://bottlepy.org>`_ is a fast, simple and lightweight `WSGI <http://www.wsgi.org/wsgi/>`_ micro web-framework for `Python <http://python.org/>`_. It is distributed as a single file module and has no dependencies other than the `Python Standard Library <http://docs.python.org/library/>`_. 
 
-This is my first open source project so far. It started and a small experiment but soon got so much positive feedback I decided to make something real out of it. Here it is.
+* **Documentation** http://bottlepy.org/
+* **Source Code** https://github.com/defnull/bottle
+* **License** Permissive free software license (MIT)
 
-Impressum und Kontaktdaten
---------------------------
+About the Author
+----------------
 
-(This is required by `German law <http://bundesrecht.juris.de/tmg/__5.html>`_)
+.. image:: static/myface_small.png
+   :alt: Photo of Marcel Hellkamp
+   :class: right
+
+Hi, I'm *Marcel Hellkamp* (aka *defnull*), author of Bottle and the guy behind this website. I'm 28 years old and studying computer science at the Georg-August-University in Göttingen, Germany.
+
+* **Twitter** https://twitter.com/bottlepy
+* **GitHub** https://github.com/defnull
+* **Google+** https://plus.google.com/100511570710582253802/posts
+* **StackExchange** http://stackexchange.com/users/176893/defnull
+* **Linkedin** http://www.linkedin.com/pub/marcel-hellkamp/4b/2ba/6a7/en
+
+
+
+
+
+
+Impressum (as required by german law)
+-------------------------------------
 
 Die Nutzung der folgenden Kontaktdaten ist ausschließlich für die 
 Kontaktaufnahme mit dem Betreiber dieser Webseite bei rechtlichen 
