@@ -15,7 +15,8 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #F5F4EF;
+    /*background: #F5F4EF;*/
+    background: #E8EFEF;
     color: #000305;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,15 +51,14 @@ hr { border: 2px solid #EEEEEE; }
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
-	color: #C74350;
+	/*color: #C74350;*/
+	color: #005566;
 	padding: 0 1px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 a:hover, a:active {
-	background-color: #C74350;
-	color: #fff;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #333;
+    color: black;
+    text-decoration: underline;
 }
 
 h1 a:hover {
@@ -161,7 +161,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #000305;
+		color: #002a32;
 		display: block;
 		font-weight: bold;
 		margin: 0 0 .6em .2em;
@@ -204,7 +204,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
-		background: #C74451;
+		background: #002a32;
 		color: #fff;
 		text-shadow: none !important;
 	}
@@ -242,11 +242,6 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
 #featured figure img {display: block; float: right;}
 
-#featured h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
-#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
-
-#featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
-#featured h3 a:hover, #featured h3 a:active {color: #fff;}
 
 /*
 	Body
@@ -271,7 +266,6 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
 #extras h2 {
-	color: #C74350;
 	font-size: 1.429em;
 	margin-bottom: .25em;
 	padding: 0 3px;
