@@ -86,12 +86,15 @@ ol {
 }
 
 .post-info {
-    float:right;
+    width: 190px;
+    float: right;
     margin:10px;
     padding:5px;
+    background: #E8EFEF;
+    border-radius: 5px;
 }
 
-.post-info p{
+.post-info p {
     margin-bottom: 1px;
 }
 
@@ -147,7 +150,6 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
 #featured.body, #content.body, #about.body {
     box-shadow: 3px 3px 3px #ddd;
-
 }
 
 /*
@@ -367,7 +369,6 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#posts-list .hentry {padding-left: 10px; position: relative;}
 	
 	#posts-list footer {
-		width: 190px;
 		margin-top: 0;
 		padding-top: 0;
 		text-align: right;
