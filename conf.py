@@ -17,22 +17,22 @@ DEFAULT_DATE = (2012, 03, 02, 14, 01, 01)
 
 GITHUB_URL = 'http://github.com/defnull/bottle'
 #DISQUS_SITENAME = "bottlepy-blog"
-TWITTER_USERNAME = "bottlepy"
+#TWITTER_USERNAME = "bottlepy"
 
 #MENUITEMS = (('Docs','http://bottlepy.org/'),)
 
 LINKS = (('Docs','http://bottlepy.org/'),)
 
-SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
-          ('lastfm', 'http://lastfm.com/user/akounet'),
-          ('github', 'http://github.com/ametaireau'),)
+SOCIAL = (('twitter', 'http://twitter.com/bottlepy'),
+          ('github', 'http://github.com/defnull'),)
 
 # global metadata to all the contents
-DEFAULT_METADATA = (('yeah', 'it is'),)
+#DEFAULT_METADATA = (('yeah', 'it is'),)
 
 # static paths will be copied under the same name
 STATIC_PATHS = ["static", ]
 
 # A list of files to copy from the source to the destination
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+FILES_TO_COPY = (('static/robots.txt', 'robots.txt'),
+                 ('static/favicon.ico', 'favicon.ico'),)
 
