@@ -9,9 +9,9 @@ preview: build
 clean:
 	rm -rfv output
 
-venv: venv/bin/pelican
-venv/bin/pelican:
-	virtualenv venv
-	. venv/bin/activate; pip install pelican
-
+venv: venv/bin/activate
+venv/bin/activate: requirements.txt
+	test -d venv || virtualenv venv
+	. venv/bin/activate; pip install -Ur requirements.txt
+	touch venv/bin/activate
 
