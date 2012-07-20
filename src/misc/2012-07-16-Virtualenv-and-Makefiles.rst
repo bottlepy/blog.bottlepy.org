@@ -27,5 +27,5 @@ So, what does it do? The ``venv`` target builds your virtual environment and kee
 
 
 
-Nothing special, but a very handy. Especially if your users are new to python and don't know much about virtual environments.
+Nothing special, but very handy. Especially if your users are new to python and don't know much about virtual environments.
 
