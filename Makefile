@@ -3,6 +3,9 @@
 build: venv
 	. venv/bin/activate; pelican -vs conf.py src/
 
+draft: venv
+	. venv/bin/activate; pelican -vs conf.py -o output/draft/ src/
+
 preview: build
 	python -m webbrowser ./output/index.html
 
