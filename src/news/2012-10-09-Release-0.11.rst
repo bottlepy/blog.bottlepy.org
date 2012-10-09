@@ -1,0 +1,32 @@
+Bottle 0.11 released!
+#####################
+
+:date: 2012-10-09
+:author: Marcel Hellkamp
+
+The bottle-0.11-rc1 development branch is stable for some time now, widely used and excessively tested. There is no reason to not release it. So, here it is:
+
+* PyPi: `bottle-0.11 (stable) <http://pypi.python.org/pypi/bottle>`_
+* Changelog: http://bottlepy.org/docs/0.11/changelog.html#release-0-11
+
+Changelog (summary)
+===================
+
+* **Native support for Python 2.x and 3.x syntax. No need to run 2to3 anymore.**
+* Python 3.3 added to the list of officially supported versions (2.5, 2.6, 2.7, 3.1, 3.2, 3.3)
+* Support for partial downloads (``Range`` header) in ``static_file()``.
+* The new `ResourceManager` interface helps locating files bundled with an application.
+* Added a server adapter for `waitress <http://docs.pylonsproject.org/projects/waitress/en/latest/>`_.
+* New `Bottle.merge()` method to install all routes from one application into another.
+* New `Request.app` property to get the application object that handles a request.
+* Added `FormsDict.decode()` to get an all-unicode version (for WTForms).
+
+Upgrade Notes
+=============
+
+With this new release, bottle-0.10 becomes 'old stable' and support for bottle-0.9 runs out. If you are still using bottle-0.9 (or lower), you should consider upgrading. Bug-fixes are only provided for 'stable' and 'old stable'.
+
+Bottle maintains backwards compatibility to 'old stable' as usual. If you fixed all deprecation warnings in your bottle-0.10 application, it should run just fine after the upgrade.
+
+
+
