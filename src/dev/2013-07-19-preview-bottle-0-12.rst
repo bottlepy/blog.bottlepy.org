@@ -6,14 +6,14 @@ Preview: Bottle 0.12
 :tags: preview
 :author: Marcel Hellkamp
 
-Some time has passed and some really nice features have found their way into the bottle core framework. As we are now preparing for the new release, let me show you the most important changes and `let us know <mailto:bottlepy@googlegroups.com>`_ what you thin about it!
+Some time has passed and some really nice features have found their way into the bottle core framework. As we are now preparing for the new release, let me show you the most important changes and `let us know <mailto:bottlepy@googlegroups.com>`_ what you think about it!
 
 As promised: All changes are **fully backwards compatible** to the **last stable release (bottle-0.11)** and all deprecated APIs print a warning to make the transition as easy as possible.
 
 Configuration
 =============
 
-Bottle had the ``app.config`` attribute for a while now, but it was poorly documented  and not very useful in its old state. The "Uppercase attributes are namespaces" feature just felt odd and I have not seen a single project or plugin that actually uses it that way. It ws time to re-think the whole application-configuration topic and make it right.
+Bottle had the ``app.config`` attribute for a while now, but it was poorly documented  and not very useful in its old state. The "Uppercase attributes are namespaces" feature just felt odd and I have not seen a single project or plugin that actually uses it that way. It was time to re-think the whole application-configuration topic and make it right.
 
 The new `ConfigDict() <http://bottlepy.org/docs/dev/configuration.html#bottle.ConfigDict>`_ implementation of the `Bottle().config <http://bottlepy.org/docs/dev/api.html#bottle.Bottle.config>`_ attribute is `well documented <http://bottlepy.org/docs/dev/configuration.html>`_ and has some very nice features.
 
