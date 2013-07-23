@@ -40,7 +40,7 @@ Our built-in template engine called "SimpleTemplate" (or `stpl` for short) got a
 * **Multiline Code Blocks:** Instead of starting each code line with a ``%``, you can now use ``<?`` and ``?>`` to mark a whole block of python code. That should save a lot of typing.
 * **Include/rebase Functions:** The ``include`` and ``rebase`` keywords are functions now. The most important benefit is that you can specify the target template in a variable (e.g. ``% include(variable_with_template_name, ...)``). Apart from that, we follow the Python3 philosophy (print as a function) and reduce unnecessary magic with this decision. By the way: ``include()`` returns the namespace of the included template. Nice, eh?
 
-Documentation is still lacking, though. Anyone?
+Documentation is still lacking though. Anyone?
 
 File Uploads
 ============
