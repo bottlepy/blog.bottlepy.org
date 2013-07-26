@@ -24,8 +24,8 @@ PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
 PAGE_LANG_SAVE_AS = 'pages/{slug}-{lang}.html'
 
 GITHUB_URL = 'http://github.com/defnull/bottle'
-DISQUS_SITENAME = "bottlepy"
-TWITTER_USERNAME = "bottlepy"
+#DISQUS_SITENAME = "bottlepy"
+#TWITTER_USERNAME = "bottlepy"
 
 MENUITEMS = (('Home','/'),)
 
