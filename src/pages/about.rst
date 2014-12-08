@@ -1,7 +1,7 @@
 About
 #####
 
-:date: 2010-10-03 10:20
+:date: 2014-12-08 19:52
 :author: Marcel Hellkamp
 
 Want to learn more about the `Bottle Web Framework <http://bottlepy.org/>`_?  This blog covers new ideas, technical details and other Bottle and web development related stuff. Never miss a release again!
@@ -49,8 +49,8 @@ Problemen vorgesehen. Insbesondere die Nutzung zu Werbe- oder Ã¤hnlichen
 Zwecken ist ausdrücklich untersagt.
 
   * **Betreiber**: Marcel Hellkamp
-  * **Ort**: D - 37075 Göttingen
-  * **Strasse**: Theodor-Heuss Strasse 13
+  * **Ort**: D - 37077 Göttingen
+  * **Strasse**: Fichtenweg 3
   * **Telefon**: +49 (0) 551 20005915
   * **E-Mail**: marc at gsites dot de
 
