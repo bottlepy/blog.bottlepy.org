@@ -17,7 +17,7 @@ About Bottle
 `Bottle <http://bottlepy.org>`_ is a fast, simple and lightweight `WSGI <http://www.wsgi.org/>`_ micro web-framework for `Python <http://python.org/>`_. It is distributed as a single file module and has no dependencies other than the `Python Standard Library <http://docs.python.org/library/>`_. 
 
 * **Documentation** http://bottlepy.org/
-* **Source Code** https://github.com/defnull/bottle
+* **Source Code** https://github.com/bottlepy/bottle
 * **License** Permissive free software license (MIT)
 
 About the Author

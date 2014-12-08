@@ -10,5 +10,5 @@ Perhaps it is a good time to remove SimpleTALTemplate support instead of fixing 
 
 Here is the deal: The TAL template adapter needs a maintainer or support will be removed within the next two releases.
 
-https://github.com/defnull/bottle/issues/322
+https://github.com/bottlepy/bottle/issues/322
 

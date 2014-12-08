@@ -47,7 +47,7 @@ While this feature is in the works, this workaround might help:
 
 Sill, this does not solve all problems. Templates are cached by their name. If two applications load different templates that have the same name, they mix up.
 
-To get this workaround to actually work, I implemented a `quick fix <https://github.com/defnull/bottle/commit/cecbd04fc80e44f0b422b5bb7a894563102bed7f>`_ and
+To get this workaround to actually work, I implemented a `quick fix <https://github.com/bottlepy/bottle/commit/cecbd04fc80e44f0b422b5bb7a894563102bed7f>`_ and
 pushed it to the repository. The ID of the template lookup path list is now part of the cache key. It’s not a perfect solution, but at least allows for a
 decent workaround while we are working on a `real` solution.
 

@@ -5,7 +5,7 @@ Custom Request Attributes
 :author: Marcel Hellkamp
 
 This might be useful for Plugin developers:
-https://github.com/defnull/bottle/commit/a21d71694fdea222844dba5076efad3726ccdb68
+https://github.com/bottlepy/bottle/commit/a21d71694fdea222844dba5076efad3726ccdb68
 
 To sum it up: You can now add custom attributes or properties to the bottle.request object. These are stored in the environ dictionary ('bottle.request.ext.*' namespace) which has some advantages over traditional instance attributes:
 

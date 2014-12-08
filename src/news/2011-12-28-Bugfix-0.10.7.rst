@@ -18,5 +18,5 @@ Some more links:
 
 * http://events.ccc.de/congress/2011/Fahrplan/events/4680.en.html
 * http://www.nruns.com/_downloads/advisory28122011.pdf
-* https://github.com/defnull/bottle/commit/6946695b69f5493fb063c351400ff759323a31aa
+* https://github.com/bottlepy/bottle/commit/6946695b69f5493fb063c351400ff759323a31aa
 
