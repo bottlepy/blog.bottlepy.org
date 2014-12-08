@@ -10,7 +10,7 @@ Want to learn more about the `Bottle Web Framework <http://bottlepy.org/>`_?  Th
 About Bottle
 ------------
 
-.. image:: /static/static/bottle_small.png
+.. image:: /static/bottle_small.png
    :alt: Bottle Logo
    :class: right 
    
@@ -23,7 +23,7 @@ About Bottle
 About the Author
 ----------------
 
-.. image:: /static/static/myface_small.png
+.. image:: /static/myface_small.png
    :alt: Photo of Marcel Hellkamp
    :class: right
 
