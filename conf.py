@@ -41,6 +41,7 @@ SOCIAL = (('twitter', 'http://twitter.com/bottlepy'),
 STATIC_PATHS = ["static", ]
 
 # A list of files to copy from the source to the destination
-FILES_TO_COPY = (('static/robots.txt', 'robots.txt'),
-                 ('static/favicon.ico', 'favicon.ico'),)
-
+EXTRA_PATH_METADATA = {
+    'static/robots.txt': {'path': 'robots.txt'},
+    'static/favicon.ico': {'path': 'favicon.ico'},
+}
