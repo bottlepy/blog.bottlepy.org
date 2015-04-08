@@ -12,7 +12,7 @@ Whenever I start a new project that is likely to have dependencies, I set up `vi
     venv: venv/bin/activate
     venv/bin/activate: requirements.txt
         test -d venv || virtualenv venv
-        . venv/bin/activate; pip -Ur requirements.txt
+        . venv/bin/activate; pip install -Ur requirements.txt
         touch venv/bin/activate
 
 So, what does it do? The ``venv`` target builds your virtual environment and keeps it in sync with your ``requirements.txt``. If everything is up-to-date, nothing happens. You can use the `venv` target as a dependency for other targets or call ``make venv`` to build or update the virtual environment manually. Just as an example:
